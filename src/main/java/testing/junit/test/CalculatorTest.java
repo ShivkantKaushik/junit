@@ -36,6 +36,7 @@ public class CalculatorTest {
 
     @Test
     @DisplayName("Addition Method")
+    @Tag("add")
     public void testAddition(){
         assertEquals(20,calculator.add(x,y));
     }
@@ -46,6 +47,8 @@ public class CalculatorTest {
     public static void deSetup(){
         System.out.println("It will run once after all teh functions.");
     }
+
+
 
 
 }
